@@ -1,0 +1,14 @@
+[package]
+name = "rlease"
+version = "0.1.0"
+edition = "2024"
+description = "Small DHCPv4 client (udhcpc-class)"
+readme = "README.md"
+license = "MIT"
+authors = ["Robert Mongold"]
+keywords = ["dhcp", "networking", "linux"]
+categories = ["network-programming", "command-line-utilities"]
+
+[dependencies]
+dhcproto = "0.12"
+libc = "0.2"
